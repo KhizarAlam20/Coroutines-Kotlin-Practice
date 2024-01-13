@@ -49,8 +49,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                 } catch (e: Exception) {
-                    Log.d("myTag", "Coroutine : ${e}")
-//                    Toast.makeText(this,"corotine : [${e}]").show()
+                    Log.d("COROUTINE_TAG", "Coroutine : ${e}")
                 }
             }
         }
@@ -67,7 +66,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 } catch (e: Exception) {
                     Log.d("myTag", "Coroutine Counter : ${e}")
-//                    Toast.makeText(this,"corotine : [${e}]").show()
                 }
             }
         }
